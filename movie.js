@@ -12,7 +12,8 @@ function displayText(data) {
     data = JSON.parse(data);
     let name = "<div><h2>" + data.results[0].title + "</h2></div>";
     let overview = "<div><p>" + data.results[0].overview + "</p></div>";
-    document.getElementById("data").innerHTML = name + overview;
+    let poster = "<img src='https://image.tmdb.org/t/p/w500" + data.results[0].poster_path + "' />";
+    document.getElementById("data").innerHTML = name + overview + poster;
 }
 
 xhr.onreadystatechange = function() {
