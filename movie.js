@@ -20,4 +20,3 @@ xhr.onreadystatechange = function() {
     };
 }
 
-console.log(data);
