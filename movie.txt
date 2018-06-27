@@ -3,6 +3,11 @@ CHALLENGE:
 Style the results
 Return the title, popularity, overview, poster and year of release.
 
+BONUS ROUND:
+
+Have the results list all of the titles and overviews.
+---
+
 Here is a sample of the returned data from the API:
 
 {
