@@ -1,8 +1,5 @@
 let xhr = new XMLHttpRequest();
-let data;
 let APIKEY = "35e16679c616a21b9ddebb66272c5902";
-let query = "Vertigo";
-
 
 function submitMovie() {
     
